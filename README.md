@@ -1,14 +1,14 @@
 # Blog REST API
 - [App info](#app-info)
 - [Technologies](#technologies)
-- [Setup](#table-of-contents)
+- [Setup](#setup)
 - [Endpoints](#endpoints)
 - [License](#license)
 
 ## App info
 A simple REST API for creating, removing , updating and deteleting (CRUD) blog posts in a MongoDB database.
 #### Author  
-**Elia Tryfonas**
+Elia Tryfonas
 
 ## Technologies
 - Node.js
