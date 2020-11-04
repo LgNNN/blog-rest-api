@@ -44,6 +44,7 @@ const blog_submit = async (req,res) =>{
 
 
 const blog_update = async (req,res) =>{
+    
     const body ={};
     if(req.body.title){
         body.title = req.body.title;
