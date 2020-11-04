@@ -6,19 +6,16 @@
 - [License](#license)
 
 ## App info
-#
 A simple REST API for creating, removing , updating and deteleting (CRUD) blog posts in a MongoDB database.
 #### Author  
 **Elia Tryfonas**
 
 ## Technologies
-#
 - Node.js
 - Express
 - MongoDB
 - Mongoose
 ## Setup
-#
 To run this project create a **.env** file and add 
 ```
 DB_CONNECTION ='your-mongodb-connection-url' 
@@ -31,7 +28,6 @@ npm run start
 ```
 
 ## Endpoints
-#
 You can send requests to the following endpoints to interact with the database.  
 For **POST** you need to provide the following in the request body and for **PATCH** only what you want to update.
 ```javascript
@@ -64,7 +60,4 @@ Update data of a specific post.
 Delete a post.
 
 ## License
-#
 This project is licensed under the MIT License.
-
-
