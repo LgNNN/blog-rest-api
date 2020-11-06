@@ -6,7 +6,7 @@
 - [License](#license)
 
 ## App info
-A simple REST API for creating, removing , updating and deleting (CRUD) blog posts in a MongoDB database.
+A simple REST API for creating, reading , updating and deleting (CRUD) blog posts in a MongoDB database.
 #### Author  
 Elia Tryfonas
 
