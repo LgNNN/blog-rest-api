@@ -4,7 +4,7 @@ const app = express();
 require('dotenv/config');
 
 // db connection
-mongoose.connect(process.env.DB_CONNECTION,{ useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.DB_CONNECTION,{ useNewUrlParser: true, useUnifiedTopology: true , useFindAndModify: false });
 const db = mongoose.connection;
 db.on('error', err => console.log(err));
 db.once('open', () => console.log('Connected to DB!'));
